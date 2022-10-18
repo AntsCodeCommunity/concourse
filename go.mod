@@ -10,14 +10,14 @@ require (
 	code.cloudfoundry.org/localip v0.0.0-20220131190813-865a62baabe7
 	code.cloudfoundry.org/urljoiner v0.0.0-20170223060717-5cabba6c0a50
 	github.com/DataDog/datadog-go/v5 v5.1.1
-	github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/trace v1.8.4
+	github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/trace v1.10.1
 	github.com/Masterminds/squirrel v1.5.3
 	github.com/NYTimes/gziphandler v1.1.1
 	github.com/aryann/difflib v0.0.0-20210328193216-ff5ff6dc229b
-	github.com/aws/aws-sdk-go v1.44.68
-	github.com/caarlos0/env/v6 v6.9.3
+	github.com/aws/aws-sdk-go v1.44.118
+	github.com/caarlos0/env/v6 v6.10.1
 	github.com/cenkalti/backoff v2.2.1+incompatible
-	github.com/concourse/dex v1.1.0
+	github.com/concourse/dex v1.5.0
 	github.com/concourse/flag v1.1.0
 	github.com/concourse/go-archive v1.0.1
 	github.com/concourse/retryhttp v1.1.1
@@ -39,32 +39,32 @@ require (
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/hashicorp/go-retryablehttp v0.7.1
 	github.com/hashicorp/go-rootcerts v1.0.2
-	github.com/hashicorp/vault/api v1.7.2
+	github.com/hashicorp/vault/api v1.8.1
 	github.com/imdario/mergo v0.3.13
 	github.com/inconshreveable/go-update v0.0.0-20160112193335-8152e7eb6ccf
 	github.com/influxdata/influxdb1-client v0.0.0-20220302092344-a9ab5670611c
 	github.com/jackpal/gateway v1.0.7
 	github.com/jessevdk/go-flags v1.5.0
-	github.com/klauspost/compress v1.15.9
+	github.com/klauspost/compress v1.15.11
 	github.com/kr/pty v1.1.8
 	github.com/krishicks/yaml-patch v0.0.10
-	github.com/lib/pq v1.10.6
-	github.com/mattn/go-colorable v0.1.12
-	github.com/mattn/go-isatty v0.0.14
+	github.com/lib/pq v1.10.7
+	github.com/mattn/go-colorable v0.1.13
+	github.com/mattn/go-isatty v0.0.16
 	github.com/maxbrunsfeld/counterfeiter/v6 v6.5.0
 	github.com/mgutz/ansi v0.0.0-20200706080929-d51e80ef957d
 	github.com/miekg/dns v1.1.50
 	github.com/mitchellh/mapstructure v1.5.0
 	github.com/nu7hatch/gouuid v0.0.0-20131221200532-179d4d0c4d8d
 	github.com/onsi/ginkgo v1.16.5
-	github.com/onsi/gomega v1.20.0
-	github.com/opencontainers/runc v1.1.3
+	github.com/onsi/gomega v1.22.1
+	github.com/opencontainers/runc v1.1.4
 	github.com/opencontainers/runtime-spec v1.0.3-0.20210326190908-1c3f411f0417
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/peterhellberg/link v1.1.0
 	github.com/pkg/errors v0.9.1
 	github.com/pkg/term v1.1.1-0.20201205102247-e502d17f6e7f
-	github.com/prometheus/client_golang v1.12.2
+	github.com/prometheus/client_golang v1.13.0
 	github.com/racksec/srslog v0.0.0-20180709174129-a4725f04ec91
 	github.com/sirupsen/logrus v1.9.0
 	github.com/skratchdot/open-golang v0.0.0-20200116055534-eef842397966
@@ -77,24 +77,24 @@ require (
 	github.com/vito/go-sse v1.0.0
 	github.com/vito/houdini v1.1.2
 	github.com/vito/twentythousandtonnesofcrudeoil v0.0.0-20180305154709-3b21ad808fcb
-	go.opentelemetry.io/otel v1.9.0
-	go.opentelemetry.io/otel/exporters/jaeger v1.9.0
-	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.9.0
-	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.9.0
+	go.opentelemetry.io/otel v1.11.0
+	go.opentelemetry.io/otel/exporters/jaeger v1.11.0
+	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.11.0
+	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.11.0
 	go.opentelemetry.io/otel/oteltest v1.0.0-RC3
-	go.opentelemetry.io/otel/sdk v1.9.0
-	go.opentelemetry.io/otel/trace v1.9.0
-	golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa
-	golang.org/x/oauth2 v0.0.0-20220722155238-128564f6959c
-	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4
-	golang.org/x/sys v0.0.0-20220731174439-a90be440212d
-	golang.org/x/time v0.0.0-20220722155302-e5dcc9cfc0b9
-	google.golang.org/grpc v1.48.0
+	go.opentelemetry.io/otel/sdk v1.11.0
+	go.opentelemetry.io/otel/trace v1.11.0
+	golang.org/x/crypto 56aed061732a
+	golang.org/x/oauth2 6fdb5e3db783
+	golang.org/x/sync v0.1.0
+	golang.org/x/sys v0.1.0
+	golang.org/x/time v0.1.0
+	google.golang.org/grpc v1.50.1
 	gopkg.in/square/go-jose.v2 v2.6.0
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.24.3
-	k8s.io/apimachinery v0.24.3
-	k8s.io/client-go v0.24.3
+	k8s.io/api v0.25.3
+	k8s.io/apimachinery v0.25.3
+	k8s.io/client-go/v11 v11.0.0+incompatible
 	sigs.k8s.io/yaml v1.3.0
 )
 
